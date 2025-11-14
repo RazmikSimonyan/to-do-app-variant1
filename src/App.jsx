@@ -1,12 +1,16 @@
 import React,{ useState } from "react";
 import "./App.css";
+import Input from "./components/Input/Input";
 
 function App() {
 
-  
+  const [text, setText] = useState('');
+  const [todos, setTodos] = useState([]);
+
+
   return (
     <>
-      <h1>Hello Razmik, the true prince and master of web development</h1>
+     <Input/>
     </>
   );
 }
