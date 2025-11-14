@@ -8,9 +8,7 @@ function App() {
   const todosstate = useState([]);
 
 
-  const handleRemove = (id)=>{
-    setTodos(todos.filter((todo)=>todo.id !== id));
-  }
+ 
 
   return (
     <div className="parent-todo">
