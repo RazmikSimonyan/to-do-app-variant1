@@ -1,27 +1,28 @@
-.parent-input{
-    display: flex;
-    justify-content: center;
-    column-gap: 5px;
-    align-items: center;
+.parent-input {
+  display: flex;
+  justify-content: center;
+  column-gap: 5px;
+  align-items: center;
 }
 
-.my-input{
-    width:200px;
-    padding:10px;
-    border:1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-    color:#333;
+.my-input {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 32px;
+  color: rgb(250, 248, 248);
+  text-shadow:1px 1px 2px black;
+  background-color: lightgreen;
+}
+
+.cool-button {
+  font-size: 32px;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 1px 10px;
+  transition: 0.3s all linear;
+  &:hover {
     background-color: lightgreen;
-}
-
-.cool-button{
-    font-size:32px;
-    border-radius: 5px;
-    cursor: pointer;
-    padding:1px 10px;
-    transition: 0.3s all linear;
-    &:hover{
-        background-color: lightgreen;
-    }
+  }
 }
