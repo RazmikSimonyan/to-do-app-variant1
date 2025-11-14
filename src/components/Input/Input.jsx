@@ -1,9 +1,11 @@
 import React from 'react'
+import './Input.css';
 
 const Input = () => {
   return (
-    <div className="my-input">
-        <input/>
+    <div class="parent-input">
+        <input className="my-input"/>
+        <button className="cool-button">Add</button>
     </div>
   )
 }
